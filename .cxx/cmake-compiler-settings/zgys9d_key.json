@@ -1,0 +1,21 @@
+{
+  "gradlePluginVersion": "3.4.0-alpha09",
+  "ndkInstallationFolder": {
+    "path": "/home/sajad/Andoid/sdk-tools-linux-4333796/ndk-bundle"
+  },
+  "ndkSourceProperties": {
+    "map": {
+      "Pkg.Desc": "Android NDK",
+      "Pkg.Revision": "19.0.5160253-beta2"
+    }
+  },
+  "args": [
+    "-DANDROID_ABI\u003dx86_64",
+    "-DANDROID_PLATFORM\u003dandroid-19",
+    "-DCMAKE_CXX_FLAGS\u003d-std\u003dc++14",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
+    "-DCMAKE_SYSTEM_VERSION\u003d19",
+    "-DCMAKE_ANDROID_NDK\u003d${ANDROID_NDK}"
+  ]
+}
